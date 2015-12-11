@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:columnCount="3"
+    android:orientation="horizontal" >
+
+
+    <Button android:text="Play with other player"
+        android:id="@+id/playerToPlayer"
+        android:onClick="checkGameType"
+        android:layout_columnSpan="3"
+        android:layout_gravity="fill"> </Button>
+
+    <Button android:text="Play with device"
+        android:id="@+id/botPlayer"
+        android:onClick="checkGameType"
+        android:layout_columnSpan="3"
+        android:layout_gravity="fill"> </Button>
+
+
+
+</GridLayout>
